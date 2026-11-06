@@ -54,14 +54,3 @@ The defaults are only guesses; every probe reads differently.
 - Without an external resistor, readings are small and a bit noisy. A 10kΩ resistor from GPIO 32 to GND gives more stable readings.
 - The page only works while your device is on the same Wi-Fi as the ESP32.
 
-## API
-
-`GET /data` returns JSON:
-
-```json
-{"raw": 1234, "percent": 56}
-```
-
-## Before uploading to GitHub
-
-Make sure your real Wi-Fi name and password are not in the committed file.
